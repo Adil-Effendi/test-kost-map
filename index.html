@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map Kost Interaktif</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Peta Kost</h1>
+
+    <!-- Container untuk map -->
+    <object id="svgMap" type="image/svg+xml" data="map-kost.svg"></object>
+
+    <!-- Popup info -->
+    <div id="popup" class="hidden">
+      <h2 id="popup-title">Judul</h2>
+      <p id="popup-desc">Deskripsi</p>
+      <button id="popup-close">Tutup</button>
+    </div>
+
+    <!-- ini rutenya-->
+    <div id="route-selector">
+      <label for="start-point">Dari:</label>
+      <select id="start-point">
+        <option value="">--Pilih--</option>
+        <option value="rumah-warga">Rumah Warga</option>
+        <option value="kost-wanita">Kost Wanita</option>
+        <option value="kost-berkah-jaya">Kost Berkah Jaya</option>
+        <option value="ramothy-kost">Ramothy Kost</option>
+        <option value="_x33_g-kost">3G Kost</option>
+        <!-- Tambah lokasi lainnya -->
+      </select>
+
+      <label for="end-point">Ke:</label>
+      <select id="end-point">
+        <option value="">--Pilih--</option>
+        <option value="rumah-warga">Rumah Warga</option>
+        <option value="kost-wanita">Kost Wanita</option>
+        <option value="kost-berkah-jaya">Kost Berkah Jaya</option>
+        <option value="ramothy-kost">Ramothy Kost</option>
+        <option value="_x33_g-kost">3G Kost</option>
+        <!-- Tambah lokasi lainnya -->
+      </select>
+      <!-- buttonnya rute -->
+      <button id="show-route">Tampilkan Rute</button>
+
+      <!-- buttonnya navigasi -->
+      <button
+        id="start-navigation"
+        class="bg-blue-500 text-white px-4 py-2 rounded mt-2"
+      >
+        Start Navigation
+      </button>
+
+      <!-- button back untuk rute -->
+      <button
+        id="back-to-start"
+        class="bg-gray-500 text-white px-4 py-2 rounded"
+      >
+        Kembali
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1366 768">
+  <!-- Generator: Adobe Illustrator 29.6.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 9)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .st1 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 12px;
+      }
+    </style>
+  </defs>
+  <polygon class="st0" points="361.31 348.9 431.51 348.9 431.51 54.08 740.37 54.08 740.37 82.16 810.57 82.16 810.57 54.08 1049.24 54.08 1049.24 587.57 754.41 587.57 754.41 671.8 585.94 671.8 585.94 615.65 389.39 615.65 389.39 461.22 431.51 461.22 431.51 391.02 361.31 391.02 361.31 348.9"/>
+  <rect class="st0" x="515.75" y="67.84" width="155.23" height="155.23"/>
+  <rect class="st0" x="515.75" y="223.07" width="155.71" height="41.87"/>
+  <rect class="st0" x="684.22" y="96.2" width="182.51" height="224.63"/>
+  <rect class="st0" x="922.88" y="96.2" width="112.31" height="42.12"/>
+  <rect class="st0" x="922.88" y="166.39" width="112.31" height="42.12"/>
+  <rect class="st0" x="993.08" y="138.31" width="42.12" height="28.08"/>
+  <rect class="st0" x="922.88" y="138.31" width="70.2" height="28.08"/>
+  <rect class="st0" x="922.88" y="391.02" width="112.31" height="98.27"/>
+  <rect class="st0" x="979.04" y="489.29" width="56.16" height="84.24"/>
+  <rect class="st0" x="922.88" y="489.29" width="56.16" height="84.24"/>
+  <rect class="st0" x="922.88" y="250.63" width="112.31" height="42.12"/>
+  <rect class="st0" x="922.88" y="320.82" width="112.31" height="42.12"/>
+  <rect class="st0" x="993.08" y="292.75" width="42.12" height="28.08"/>
+  <rect class="st0" x="922.88" y="292.75" width="70.2" height="28.08"/>
+  <rect class="st0" x="403.43" y="489.29" width="154.43" height="98.27"/>
+  <rect class="st0" x="698.25" y="391.02" width="168.47" height="182.51"/>
+  <rect class="st0" x="445.55" y="405.06" width="169.43" height="68.71"/>
+  <text class="st1" transform="translate(754.41 208.51)"><tspan x="0" y="0">Semak</tspan></text>
+  <text class="st1" transform="translate(515.75 439.41)"><tspan x="0" y="0">Semak</tspan></text>
+  <text class="st1" transform="translate(775.47 489.29)"><tspan x="0" y="0">Semak</tspan></text>
+</svg>

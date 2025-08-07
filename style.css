@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#map-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+
+#map {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+/* Popup styling */
+#popup {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background-color: white;
+  border: 2px solid #333;
+  padding: 20px;
+  z-index: 1000;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.popup-content {
+  position: relative;
+}
+
+#close-popup {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.hidden {
+  display: none !important;
+}

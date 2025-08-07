@@ -1,0 +1,31 @@
+tambahinnya ke xml dari svg nya bukan css nya
+
+
+
+ini buat xml direction
+<style>
+  .animated-route {
+    stroke-dasharray: 10 5;
+    animation: dashmove 1s linear infinite;
+  }
+
+  @keyframes dashmove {
+    to {
+      stroke-dashoffset: -15;
+    }
+  }
+</style>
+
+<!-- Label waktu untuk rute: rumah warga → kost wanita -->
+<text id="label-rumah-warga-ke-kost-wanita" x="630" y="370" font-size="14" fill="#ff3fa6" text-anchor="middle" visibility="hidden">
+  10 menit
+</text>
+
+<!-- Label waktu untuk rute: kost berkah jaya → ramothy kost -->
+<text id="label-kost-berkah-jaya-ke-ramothy-kost" x="750" y="420" font-size="14" fill="#ff3fa6" text-anchor="middle" visibility="hidden">
+  15 menit
+</text>
+
+ini untuk navigasi
+<circle id="navigator-icon" r="8" fill="#ff3fa6" visibility="hidden" />
+
