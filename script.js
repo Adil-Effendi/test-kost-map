@@ -175,7 +175,7 @@ window.addEventListener("DOMContentLoaded", () => {
             }
           }
         } else {
-          alert("Rute tidak ditemukan. Pastikan ID di SVG sesuai.");
+          alert("Rute tidak ditemukan. Pastikan ID di SVG sesuaii.");
         }
       }
     });
